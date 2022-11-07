@@ -29,3 +29,6 @@ libsbiutils-objs-$(CONFIG_FDT_RESET_SUNXI_WDT) += reset/fdt_reset_sunxi_wdt.o
 carray-fdt_reset_drivers-$(CONFIG_FDT_RESET_THEAD) += fdt_reset_thead
 libsbiutils-objs-$(CONFIG_FDT_RESET_THEAD) += reset/fdt_reset_thead.o
 libsbiutils-objs-$(CONFIG_FDT_RESET_THEAD) += reset/fdt_reset_thead_asm.o
+
+carray-fdt_reset_drivers-$(CONFIG_FDT_RESET_MMIO) += fdt_reset_mmio
+libsbiutils-objs-$(CONFIG_FDT_RESET_MMIO) += reset/fdt_reset_mmio.o

@@ -36,6 +36,10 @@ config FDT_RESET_THEAD
 	bool "T-HEAD FDT reset driver"
 	default n
 
+config FDT_RESET_MMIO
+	bool "MMIO FDT reset driver"
+	default n
+
 endif
 
 endmenu
